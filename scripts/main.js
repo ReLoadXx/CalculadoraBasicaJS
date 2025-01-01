@@ -14,7 +14,7 @@ function calcular() {
     try {
         let resultado = eval(input);
         document.getElementById("display").value= resultado;
-        input = resultado
+        input = resultado;
         
     } catch {
         document.getElementById("display").value = "Error";
